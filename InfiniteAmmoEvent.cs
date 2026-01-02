@@ -14,8 +14,8 @@ public class InfiniteAmmoEvent : CustomEventsHandler
     /// <param name="ev">PlayerReloadingWeaponEventArgs</param>
     public override void OnPlayerChangedRole(PlayerChangedRoleEventArgs ev)
     {
-        // SCP 和机器人不配
-        if (ev.Player is not { IsAlive: true, IsSCP: false, IsDummy: false }) return;
+        // 死人不配
+        if (!ev.Player.IsAlive) return;
         // 给每种子弹类型 1 发子弹，让玩家能换弹
         ev.Player.SetAmmo(ItemType.Ammo9x19, 1);
         ev.Player.SetAmmo(ItemType.Ammo12gauge, 1);
