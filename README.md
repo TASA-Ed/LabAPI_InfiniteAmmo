@@ -2,7 +2,7 @@
 
 [![GitHub release](https://flat.badgen.net/github/release/TASA-Ed/LabAPI_InfiniteAmmo)](https://github.com/TASA-Ed/LabAPI_InfiniteAmmo/releases)
 [![LabAPI Version](https://flat.badgen.net/static/LabAPI/v1.1.4)](https://github.com/northwood-studios/LabAPI)
-[![License](https://flat.badgen.net/github/license/TASA-Ed/LabAPI_InfiniteAmmo/)](https://github.com/TASA-Ed/LabAPI_InfiniteAmmo/blob/main/LICENSE)
+[![License](https://flat.badgen.net/github/license/TASA-Ed/LabAPI_InfiniteAmmo/)](https://github.com/TASA-Ed/LabAPI_InfiniteAmmo/blob/master/LICENSE)
 
 A LabAPI plugin that grants players infinite ammo.
 
