@@ -4,14 +4,14 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("LabAPI_InfiniteAmmo")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LabAPI_InfiniteAmmo")]
+[assembly: AssemblyTitle("Infinite Ammo Plugin")]
+[assembly: AssemblyDescription("Grant players infinite ammunition")]
+[assembly: AssemblyConfiguration("Release")]
+[assembly: AssemblyCompany("TASA-Ed Studio")]
+[assembly: AssemblyProduct("Infinite Ammo Plugin")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
+[assembly: AssemblyTrademark("TASA-Ed Studio")]
+[assembly: AssemblyCulture("CN")]
 
 // 将 ComVisible 设置为 false 会使此程序集中的类型
 //对 COM 组件不可见。如果需要从 COM 访问此程序集中的类型
@@ -28,5 +28,5 @@ using System.Runtime.InteropServices;
 //      生成号
 //      修订号
 //
-[assembly: AssemblyVersion("0.1.0.0")]
-[assembly: AssemblyFileVersion("0.1.0.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
