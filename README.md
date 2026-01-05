@@ -8,10 +8,6 @@ A LabAPI plugin that grants players infinite ammo.
 
 一个 LabAPI 插件，授予玩家无限弹药。
 
-**Only Windows.**
-
-**仅 Windows。**
-
 ## Use / 使用
 
 Download LabAPI_InfiniteAmmo_x64.dll from Releases and place it in `%appdata%\SCP Secret Laboratory\LabAPI\plugins\<port>`.
