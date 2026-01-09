@@ -56,7 +56,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="LabApi, Version=1.1.4.2, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="LabApi, Version=1.1.4.3, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\LabApi.dll</HintPath>
     </Reference>
@@ -73,6 +73,10 @@
     <Compile Include="InfiniteAmmoEvent.cs" />
     <Compile Include="InfiniteAmmoMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lib\Assembly-CSharp.dll" />
+    <Content Include="lib\LabApi.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
