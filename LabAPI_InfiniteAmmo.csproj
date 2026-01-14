@@ -56,7 +56,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="LabApi, Version=1.1.4.3, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="LabApi, Version=1.1.5.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\LabApi.dll</HintPath>
     </Reference>
