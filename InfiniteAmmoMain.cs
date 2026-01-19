@@ -8,8 +8,7 @@ namespace LabAPI_InfiniteAmmo;
 /// <summary>
 /// 无限子弹 插件。
 /// </summary>
-public class InfiniteAmmoMain : Plugin
-{
+public class InfiniteAmmoMain : Plugin {
     /// <summary>
     /// 单例模式。
     /// </summary>
@@ -30,7 +29,7 @@ public class InfiniteAmmoMain : Plugin
     /// <summary>
     /// 插件版本。
     /// </summary>
-    public override Version Version => new (1, 0, 0, 0);
+    public override Version Version => new (1, 0, 1, 0);
 
     /// <summary>
     /// 需要的 LabApi 版本。
@@ -43,8 +42,7 @@ public class InfiniteAmmoMain : Plugin
     public InfiniteAmmoEvent Events { get; private set; }
 
     // 启用插件。
-    public override void Enable()
-    {
+    public override void Enable() {
         Singleton = this;
 
         Events = new InfiniteAmmoEvent();
@@ -53,8 +51,7 @@ public class InfiniteAmmoMain : Plugin
     }
 
     // 禁用插件。
-    public override void Disable()
-    {
+    public override void Disable() {
         CustomHandlersManager.UnregisterEventsHandler(Events);
 
         Events = null;
